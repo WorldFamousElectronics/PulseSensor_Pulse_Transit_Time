@@ -49,11 +49,11 @@ void mouseReleased(){
 void keyPressed(){
 
  switch(key){
-   case 's':    // pressing 's' or 'S' will take a jpg of the processing window
+   case 's':    // pressing 's' or 'S' will take a jpg of the processing window.
    case 'S':
-     saveFrame("heartLight-####.jpg");    // take a shot of that!
+     saveFrame("Saved_Frames/PulseSensor_PTT-####.jpg");    // take a shot of that!
      break;
-   case 'r':
+   case 'r':  // pressing 'r' or 'R' will reset the data traces.
    case 'R':
      resetDataTraces();
      break;

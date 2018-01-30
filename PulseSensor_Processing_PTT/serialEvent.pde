@@ -22,14 +22,14 @@ try{
      inData = inData.substring(1);           // cut off the leading 'M'
      IBI[i] = int(inData);                   // convert the string to usable int
    }
- if (inData.charAt(0) == 'T'+i){             // leading 'M' means IBI data
-     inData = inData.substring(1);           // cut off the leading 'M'
-     PTT = int(inData);                   // convert the string to usable int
+ if (inData.charAt(0) == '|'){               // leading '|' means PTT data
+     inData = inData.substring(1);           // cut off the leading '|'
+     PTT = int(inData);                      // convert the string to usable int
    }
  }
   } catch(Exception e) {
-    print("Serial Error: ");
-    println(e.toString());
+    // print("Serial Error: ");
+    // println(e.toString());
   }
 
 }
