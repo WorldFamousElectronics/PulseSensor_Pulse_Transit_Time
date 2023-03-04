@@ -54,7 +54,7 @@ boolean refreshPorts = false;
 
 void setup() {
   size(900, 725);  // Stage size
-  frameRate(100);
+  frameRate(50);
   font = loadFont("Arial-BoldMT-24.vlw");
   textFont(font);
   textAlign(CENTER);
